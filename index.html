@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+
+  <script src="p5.play.js"></script>
+  <!-- Firebase SDK CODE ADD BELOW -->
+
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+  <!--Add your Firsebase Config here below. -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBavLeyNznEWhXYESscuUeYWbwcowm2XWU",
+      authDomain: "project35-e112f.firebaseapp.com",
+      databaseURL: "https://project35-e112f-default-rtdb.firebaseio.com",
+      projectId: "project35-e112f",
+      storageBucket: "project35-e112f.appspot.com",
+      messagingSenderId: "264785782455",
+      appId: "1:264785782455:web:9c6a664f42ef8c33e58f32",
+      measurementId: "G-HZJNVZR4FZ"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
